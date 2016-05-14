@@ -1,0 +1,1427 @@
+
+
+
+<th>File extension</th>
+<th>Description</th>
+<th>Offset</th>
+<th>ISO 8859-1</th>
+<th>Hex signature</th>
+</tr>
+
+
+<td>PIC<br />
+PIF<br />
+SEA<br />
+YTR 
+<td>IBM Storyboard bitmap file<br />
+<p>Windows <a href="/wiki/Program_information_file" title="Program information file">Program Information File</a><br />
+Mac <a href="/wiki/StuffIt" title="StuffIt">Stuffit</a> Self-Extracting Archive<br />
+IRIS <a href="/wiki/Optical_character_recognition" title="Optical character recognition">OCR</a> data file</p>
+ 
+<td>0 
+<td>
+<pre>
+.
+</pre> 
+<td>
+<pre>
+00
+</pre> 
+</tr>
+
+
+<td>PDB 
+<td><a href="/wiki/PalmPilot" title="PalmPilot">PalmPilot</a> Database/Document File 
+<td>11 
+<td>
+<pre>
+........
+........
+........
+</pre> 
+<td>
+<pre>
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+</pre> 
+</tr>
+
+
+<td>DBA 
+<td><a href="/wiki/Palm_(PDA)" title="Palm (PDA)">Palm</a> Desktop Calendar Archive 
+<td>0 
+<td>
+<pre>
+...
+</pre> 
+<td>
+<pre>
+BE BA FE CA
+</pre> 
+</tr>
+
+
+<td>DBA 
+<td>Palm Desktop To Do Archive 
+<td>0 
+<td>
+<pre>
+...
+</pre> 
+<td>
+<pre>
+00 01 42 44
+</pre> 
+</tr>
+
+
+<td>TDA 
+<td>Palm Desktop Calendar Archive 
+<td>0 
+<td>
+<pre>
+...
+</pre> 
+<td>
+<pre>
+00 01 44 54
+</pre> 
+</tr>
+
+
+<td> 
+<td>Palm Desktop Data File (<a href="/wiki/Microsoft_Access" title="Microsoft Access">Access</a> format) 
+<td>0 
+<td>
+<pre>
+...
+</pre> 
+<td>
+<pre>
+00 01 00 00
+</pre> 
+</tr>
+
+
+<td>ico 
+<td><a href="/wiki/Computer_icon" title="Computer icon" class="mw-redirect">Computer icon</a> encoded in <a href="/wiki/ICO_(file_format)" title="ICO (file format)">ICO file format</a><sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> 
+<td>0 
+<td>
+<pre>
+....
+</pre> 
+<td>
+<pre>
+00 00 01 00
+</pre> 
+</tr>
+
+
+<td>3gp<br />
+3g2 
+<td>3rd Generation Partnership Project <a href="/wiki/3GPP" title="3GPP">3GPP</a> and <a href="/wiki/3GPP2" title="3GPP2" class="mw-redirect">3GPP2</a> multimedia files 
+<td>4 
+<td>
+<pre>
+ftyp 3g
+</pre> 
+<td>
+<pre>
+66 74 79 70 33 67
+</pre> 
+</tr>
+
+
+<td>z<br />
+tar.z 
+<td>compressed file (often <a href="/wiki/Tar_(file_format)" title="Tar (file format)" class="mw-redirect">tar</a> zip)<br />
+<p>using <a href="/wiki/Lempel-Ziv-Welch" title="Lempel-Ziv-Welch" class="mw-redirect">Lempel-Ziv-Welch</a> algorithm</p>
+ 
+<td>0 
+<td>
+<pre>
+..
+</pre> 
+<td>
+<pre>
+1F 9D
+</pre> 
+</tr>
+
+
+<td>z<br />
+tar.z 
+<td>Compressed file (often tar zip)<br />
+<p>using <a href="/wiki/LHA_(file_format)" title="LHA (file format)">LZH</a> algorithm</p>
+ 
+<td>0 
+<td>
+<pre>
+..
+</pre> 
+<td>
+<pre>
+1F A0
+</pre> 
+</tr>
+
+
+<td>bac 
+<td>File or <a href="/wiki/Magnetic_tape_data_storage" title="Magnetic tape data storage">tape</a> containing a <a href="/wiki/Backup" title="Backup">backup</a> done with <a href="/w/index.php?title=AmiBack&amp;action=edit&amp;redlink=1" class="new" title="AmiBack (page does not exist)">AmiBack</a> on an <a href="/wiki/Amiga" title="Amiga">Amiga</a>.
+<p>It typically is paired with an index file (idx) with the table of contents.</p>
+ 
+<td>0 
+<td>
+<pre>
+BACKMIKE
+DISK
+</pre> 
+<td>
+<pre>
+42 41 43 4B 4D 49 4B 45
+44 49 53 4B
+</pre> 
+</tr>
+
+
+<td>bz2 
+<td>Compressed file using <a href="/wiki/Bzip2" title="Bzip2">Bzip2</a> algorithm 
+<td>0 
+<td>
+<pre>
+BZh
+</pre> 
+<td>
+<pre>
+42 5A 68
+</pre> 
+</tr>
+
+
+<td>gif 
+<td>Image file encoded in the <a href="/wiki/Graphics_Interchange_Format" title="Graphics Interchange Format" class="mw-redirect">Graphics Interchange Format</a> (GIF)<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> 
+<td>0 
+<td>
+<pre>
+GIF87a
+</pre>
+<pre>
+GIF89a
+</pre> 
+<td>
+<pre>
+47 49 46 38 37 61
+</pre>
+<pre>
+47 49 46 38 39 61
+</pre> 
+</tr>
+
+
+<td>tif<br />
+tiff 
+<td><a href="/wiki/Tagged_Image_File_Format" title="Tagged Image File Format">Tagged Image File Format</a> 
+<td>0 
+<td>
+<pre>
+II*.
+</pre>
+<pre>
+MM.*
+</pre> 
+<td>
+<pre>
+49 49 2A 00
+</pre>
+(<a href="/wiki/Endianess#Little-endian" title="Endianess" class="mw-redirect">little endian</a> format)<br />
+<pre>
+4D 4D 00 2A
+</pre>
+(<a href="/wiki/Endianess#Big-endian" title="Endianess" class="mw-redirect">big endian</a> format) 
+</tr>
+
+
+<td>cr2 
+<td>Canon RAW Format Version 2<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup><br />
+Canon's RAW format is based on the TIFF file format <sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> 
+<td>0 
+<td>
+<pre>
+II*.....
+CR
+</pre> 
+<td>
+<pre>
+49 49 2A 00 10 00 00 00
+43 52
+</pre> 
+</tr>
+
+
+<td>cin 
+<td><a href="/wiki/Eastman_Kodak" title="Eastman Kodak" class="mw-redirect">Kodak</a> <a href="/wiki/Cineon#Cineon_file_format" title="Cineon">Cineon image</a> 
+<td>0 
+<td>
+<pre>
+.*_.
+</pre> 
+<td>
+<pre>
+80 2A 5F D7
+</pre> 
+</tr>
+
+
+<td>dpx 
+<td><a href="/wiki/SMPTE" title="SMPTE" class="mw-redirect">SMPTE</a> <a href="/wiki/Digital_Picture_Exchange" title="Digital Picture Exchange">DPX image</a> 
+<td>0 
+<td>
+<pre>
+SDPX
+</pre>
+<pre>
+XPDS
+</pre> 
+<td>
+<pre>
+53 44 50 58
+</pre>
+(<a href="/wiki/Endianess#Big-endian" title="Endianess" class="mw-redirect">big endian</a> format)<br />
+<pre>
+58 50 44 53
+</pre>
+(<a href="/wiki/Endianess#Little-endian" title="Endianess" class="mw-redirect">little endian</a> format) 
+</tr>
+
+
+<td>exr 
+<td><a href="/wiki/OpenEXR" title="OpenEXR">OpenEXR image</a> 
+<td>0 
+<td>
+<pre>
+v/1.
+</pre> 
+<td>
+<pre>
+76 2F 31 01
+</pre> 
+</tr>
+
+
+<td>bpg 
+<td><a href="/wiki/Better_Portable_Graphics" title="Better Portable Graphics">Better Portable Graphics</a> format<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup> 
+<td>0 
+<td>
+<pre>
+BPGû
+</pre> 
+<td>
+<pre>
+42 50 47 FB
+</pre> 
+</tr>
+
+
+<td>jpg<br />
+jpeg 
+<td><a href="/wiki/JPEG" title="JPEG">JPEG</a> raw or in the <a href="/wiki/JFIF" title="JFIF" class="mw-redirect">JFIF</a> or <a href="/wiki/Exif" title="Exif" class="mw-redirect">Exif</a> file format 
+<td>0 
+<td>
+<pre>
+ÿØÿÛ
+</pre>
+<br />
+<pre>
+ÿØÿà ..J
+F IF..
+</pre>
+<br />
+<pre>
+ÿØÿá ..E
+x if..
+</pre> 
+<td>
+<pre>
+FF D8 FF DB
+</pre>
+<br />
+<pre>
+FF D8 FF E0 nn nn 4A 46
+49 46 00 01
+</pre>
+<br />
+<pre>
+FF D8 FF E1 nn nn 45 78
+69 66 00 00
+</pre> 
+</tr>
+
+
+<td>ilbm<br />
+lbm<br />
+ibm<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/wiki/ILBM" title="ILBM">Interleaved Bitmap Image</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+ILBM
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+49 4C 42 4D
+</pre> 
+</tr>
+
+
+<td>8svx<br />
+8sv<br />
+svx<br />
+snd<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/wiki/8SVX" title="8SVX">8-Bit Sampled Voice</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+8SVX
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+38 53 56 58
+</pre> 
+</tr>
+
+
+<td>acbm<br />
+iff 
+<td><a href="/w/index.php?title=Amiga_Contiguous_Bitmap&amp;action=edit&amp;redlink=1" class="new" title="Amiga Contiguous Bitmap (page does not exist)">Amiga Contiguous Bitmap</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+ACBM
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+41 43 42 4D
+</pre> 
+</tr>
+
+
+<td>anbm<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/w/index.php?title=IFF_Animated_Bitmap&amp;action=edit&amp;redlink=1" class="new" title="IFF Animated Bitmap (page does not exist)">Animated Bitmap</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+ANBM
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+41 4E 42 4D
+</pre> 
+</tr>
+
+
+<td>anim<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/w/index.php?title=IFF_CEL_Animation&amp;action=edit&amp;redlink=1" class="new" title="IFF CEL Animation (page does not exist)">CEL Animation</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+ANIM
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn 
+41 4E 49 4D
+</pre> 
+</tr>
+
+
+<td>faxx<br />
+fax<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/wiki/Fax" title="Fax">Facsimile Image</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+FAXX
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+46 41 58 58
+</pre> 
+</tr>
+
+
+<td>ftxt<br />
+txt<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/wiki/Formatted_text" title="Formatted text">Formatted Text</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+FTXT
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+46 54 58 54
+</pre> 
+</tr>
+
+
+<td>smus<br />
+smu<br />
+mus<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/w/index.php?title=IFF_Simple_Musical_Score&amp;action=edit&amp;redlink=1" class="new" title="IFF Simple Musical Score (page does not exist)">Simple Musical Score</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+SMUS
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+53 4D 55 53
+</pre> 
+</tr>
+
+
+<td>cmus<br />
+mus<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/w/index.php?title=IFF_Musical_Score&amp;action=edit&amp;redlink=1" class="new" title="IFF Musical Score (page does not exist)">Musical Score</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+CMUS
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+43 4D 55 53
+</pre> 
+</tr>
+
+
+<td>yuvn<br />
+yuv<br />
+iff 
+<td><a href="/wiki/Interchange_File_Format" title="Interchange File Format">IFF</a> <a href="/wiki/YUV" title="YUV">YUV Image</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+YUVN
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+59 55 56 4E
+</pre> 
+</tr>
+
+
+<td>iff 
+<td><a href="/wiki/Amiga" title="Amiga">Amiga</a> <a href="/wiki/Fantavision" title="Fantavision">Fantavision Movie</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+FANT
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+46 41 4E 54
+</pre> 
+</tr>
+
+
+<td>aiff<br />
+aif<br />
+aifc<br />
+snd<br />
+iff 
+<td><a href="/wiki/Audio_Interchange_File_Format" title="Audio Interchange File Format">Audio Interchange File Format</a> 
+<td>0
+<p>any</p>
+ 
+<td>
+<pre>
+FORM....
+AIFF
+</pre> 
+<td>
+<pre>
+46 4F 52 4D nn nn nn nn
+41 49 46 46
+</pre> 
+</tr>
+
+
+<td>idx 
+<td>Index file to a file or <a href="/wiki/Magnetic_tape_data_storage" title="Magnetic tape data storage">tape</a> containing a <a href="/wiki/Backup" title="Backup">backup</a> done with <a href="/w/index.php?title=AmiBack&amp;action=edit&amp;redlink=1" class="new" title="AmiBack (page does not exist)">AmiBack</a> on an <a href="/wiki/Amiga" title="Amiga">Amiga</a>. 
+<td>0 
+<td>
+<pre>
+INDX
+</pre> 
+<td>
+<pre>
+49 4E 44 58
+</pre> 
+</tr>
+
+
+<td>exe 
+<td><a href="/wiki/DOS_MZ_executable" title="DOS MZ executable">DOS MZ executable</a> file format and its descendants (including <a href="/wiki/New_Executable" title="New Executable">NE</a> and <a href="/wiki/Portable_Executable" title="Portable Executable">PE</a>) 
+<td>0 
+<td>
+<pre>
+MZ
+</pre> 
+<td>
+<pre>
+4D 5A
+</pre> 
+</tr>
+
+
+<td>zip<br />
+jar<br />
+odt<br />
+ods<br />
+odp<br />
+docx<br />
+xlsx<br />
+pptx<br />
+vsdx<br />
+apk<br /> 
+<td><a href="/wiki/ZIP_(file_format)" title="ZIP (file format)" class="mw-redirect">zip file format</a> and formats based on it, such as <a href="/wiki/JAR_(file_format)" title="JAR (file format)">JAR</a>, <a href="/wiki/OpenDocument" title="OpenDocument">ODF</a>, <a href="/wiki/Office_Open_XML" title="Office Open XML">OOXML</a> 
+<td>0 
+<td>
+<pre>
+PK..
+</pre> 
+<td>
+<pre>
+50 4B 03 04
+</pre>
+<br />
+<pre>
+50 4B 05 06
+</pre>
+(empty archive)<br />
+<pre>
+50 4B 07 08
+</pre>
+(spanned archive) 
+</tr>
+
+
+<td>rar 
+<td><a href="/wiki/RAR_(file_format)" title="RAR (file format)">RAR</a> archive version 1.50 onwards<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> 
+<td>0 
+<td>
+<pre>
+Rar!...
+</pre>
+<br /> 
+<td>
+<pre>
+52 61 72 21 1A 07 00
+</pre> 
+</tr>
+
+
+<td>rar 
+<td><a href="/wiki/RAR_(file_format)" title="RAR (file format)">RAR</a> archive version 5.0 onwards<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup> 
+<td>0 
+<td>
+<pre>
+Rar!....
+</pre> 
+<td>
+<pre>
+52 61 72 21 1A 07 01 00
+</pre> 
+</tr>
+
+
+<td> 
+<td><a href="/wiki/Executable_and_Linkable_Format" title="Executable and Linkable Format">Executable and Linkable Format</a> 
+<td>0 
+<td>
+<pre>
+.ELF
+</pre> 
+<td>
+<pre>
+7F 45 4C 46
+</pre> 
+</tr>
+
+
+<td>png 
+<td>Image encoded in the <a href="/wiki/Portable_Network_Graphics" title="Portable Network Graphics">Portable Network Graphics</a> format<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup> 
+<td>0 
+<td>
+<pre>
+.PNG....
+</pre> 
+<td>
+<pre>
+89 50 4E 47 0D 0A 1A 0A
+</pre> 
+</tr>
+
+
+<td>class 
+<td><a href="/wiki/Java_class_file" title="Java class file">Java class file</a>, <a href="/wiki/Fat_binary#Apple" title="Fat binary">Mach-O Fat Binary</a> 
+<td>0 
+<td>
+<pre>
+Êþº¾
+</pre> 
+<td>
+<pre>
+CA FE BA BE
+</pre> 
+</tr>
+
+
+<td> 
+<td><a href="/wiki/UTF-8" title="UTF-8">UTF-8</a> encoded <a href="/wiki/Unicode" title="Unicode">Unicode</a> <a href="/wiki/Byte_order_mark" title="Byte order mark">byte order mark</a>, commonly seen in text files. 
+<td>0 
+<td>
+<pre>
+ï»¿
+</pre> 
+<td>
+<pre>
+EF BB BF
+</pre> 
+</tr>
+
+
+<td> 
+<td><a href="/wiki/Mach-O" title="Mach-O">Mach-O</a> binary (32-bit) 
+<td>0
+<p>0x1000</p>
+ 
+<td>
+<pre>
+........
+</pre> 
+<td>
+<pre>
+FE ED FA CE
+</pre> 
+</tr>
+
+
+<td> 
+<td>Mach-O binary (64-bit) 
+<td>0
+<p>0x1000</p>
+ 
+<td>
+<pre>
+........
+</pre> 
+<td>
+<pre>
+FE ED FA CF
+</pre> 
+</tr>
+
+
+<td> 
+<td>Mach-O binary (reverse byte ordering scheme, 32-bit)<sup id="cite_ref-apple.com_9-0" class="reference"><a href="#cite_note-apple.com-9">[9]</a></sup> 
+<td>0 
+<td>
+<pre>
+........
+</pre> 
+<td>
+<pre>
+CE FA ED FE
+</pre> 
+</tr>
+
+
+<td> 
+<td>Mach-O binary (reverse byte ordering scheme, 64-bit)<sup id="cite_ref-apple.com_9-1" class="reference"><a href="#cite_note-apple.com-9">[9]</a></sup> 
+<td>0 
+<td>
+<pre>
+........
+</pre> 
+<td>
+<pre>
+CF FA ED FE
+</pre> 
+</tr>
+
+
+<td> 
+<td>Byte-order mark for text file encoded in <a href="/wiki/Little_endian" title="Little endian" class="mw-redirect">little-endian</a> <a href="/wiki/UTF-16" title="UTF-16">16-bit Unicode Transfer Format</a> 
+<td>0 
+<td>
+<pre>
+..
+</pre> 
+<td>
+<pre>
+FF FE
+</pre> 
+</tr>
+
+
+<td> 
+<td>Byte-order mark for text file encoded in little-endian <a href="/wiki/UTF-32" title="UTF-32">32-bit Unicode Transfer Format</a> 
+<td>0 
+<td>
+<pre>
+....
+</pre> 
+<td>
+<pre>
+FF FE 00 00
+</pre> 
+</tr>
+
+
+<td>ps 
+<td><a href="/wiki/PostScript" title="PostScript">PostScript document</a> 
+<td>0 
+<td>
+<pre>
+%!PS
+</pre> 
+<td>
+<pre>
+25 21 50 53
+</pre> 
+</tr>
+
+
+<td>pdf 
+<td><a href="/wiki/Portable_Document_Format" title="Portable Document Format">PDF document</a> 
+<td>0 
+<td>
+<pre>
+%PDF
+</pre> 
+<td>
+<pre>
+25 50 44 46
+</pre> 
+</tr>
+
+
+<td>asf<br />
+wma<br />
+wmv 
+<td><a href="/wiki/Advanced_Systems_Format" title="Advanced Systems Format">Advanced Systems Format</a><sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup> 
+<td>0 
+<td>
+<pre>
+0&amp;²u.fÏ
+.¦Ù.ª.bÎl
+</pre> 
+<td>
+<pre>
+30 26 B2 75 8E 66 CF 11
+A6 D9 00 AA 00 62 CE 6C
+</pre> 
+</tr>
+
+
+<td> 
+<td><a href="/wiki/System_Deployment_Image" title="System Deployment Image">System Deployment Image</a>, a disk image format used by <a href="/wiki/Microsoft" title="Microsoft">Microsoft</a> 
+<td>0 
+<td>
+<pre>
+$SDI0001
+</pre> 
+<td>
+<pre>
+24 53 44 49 30 30 30 31
+</pre> 
+</tr>
+
+
+<td>ogg<br />
+oga<br />
+ogv 
+<td><a href="/wiki/Ogg" title="Ogg">Ogg</a>, an <a href="/wiki/Open_source" title="Open source" class="mw-redirect">open source</a> media container format 
+<td>0 
+<td>
+<pre>
+OggS
+</pre> 
+<td>
+<pre>
+4F 67 67 53
+</pre> 
+</tr>
+
+
+<td>psd 
+<td>Photoshop Document file, <a href="/wiki/Adobe_Photoshop" title="Adobe Photoshop">Adobe Photoshop</a>'s native file format 
+<td>0 
+<td>
+<pre>
+8BPS
+</pre> 
+<td>
+<pre>
+38 42 50 53
+</pre> 
+</tr>
+
+
+<td>wav 
+<td><a href="/wiki/Waveform_Audio_File_Format" title="Waveform Audio File Format" class="mw-redirect">Waveform Audio File Format</a> 
+<td>0 
+<td>
+<pre>
+RIFF....
+WAVE
+</pre> 
+<td>
+<pre>
+52 49 46 46 nn nn nn nn
+57 41 56 45
+</pre> 
+</tr>
+
+
+<td>avi 
+<td><a href="/wiki/Audio_Video_Interleave" title="Audio Video Interleave">Audio Video Interleave</a> video format 
+<td>0 
+<td>
+<pre>
+RIFF....
+AVI.
+</pre> 
+<td>
+<pre>
+52 49 46 46 nn nn nn nn 
+41 56 49 20
+</pre> 
+</tr>
+
+
+<td>mp3 
+<td><a href="/wiki/MPEG-1_Layer_3" title="MPEG-1 Layer 3" class="mw-redirect">MPEG-1 Layer 3</a> file without an <a href="/wiki/ID3" title="ID3">ID3</a> tag or with an <a href="/wiki/ID3" title="ID3">ID3v</a>1 tag (which's appended at the end of the file) 
+<td>0 
+<td>
+<pre>
+˙ű
+</pre> 
+<td>
+<pre>
+FF FB
+</pre> 
+</tr>
+
+
+<td>mp3 
+<td><a href="/wiki/MP3" title="MP3">MP3</a> file with an ID3v2 container 
+<td>0 
+<td>
+<pre>
+ID3
+</pre> 
+<td>
+<pre>
+49 44 33
+</pre> 
+</tr>
+
+
+<td>bmp<br />
+dib 
+<td><a href="/wiki/BMP_file_format" title="BMP file format">BMP</a> file, a <a href="/wiki/Bitmap" title="Bitmap">bitmap</a> format used mostly in the <a href="/wiki/Windows" title="Windows" class="mw-redirect">Windows</a> world 
+<td>0 
+<td>
+<pre>
+BM
+</pre> 
+<td>
+<pre>
+42 4D
+</pre> 
+</tr>
+
+
+<td>iso 
+<td><a href="/wiki/ISO9660" title="ISO9660" class="mw-redirect">ISO9660</a> CD/DVD image file<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> 
+<td>0x8001<br />
+<p>0x8801<br />
+0x9001</p>
+ 
+<td>
+<pre>
+CD001
+</pre> 
+<td>
+<pre>
+43 44 30 30 31
+</pre> 
+</tr>
+
+
+<td>fits 
+<td>Flexible Image Transport System (<a href="/wiki/FITS" title="FITS">FITS</a>)<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup> 
+<td>0 
+<td>
+<pre>
+SIMPLE  
+=       
+        
+     T
+</pre> 
+<td>
+<pre>
+53 49 4D 50 4C 45 20 20
+</pre>
+<pre>
+3D 20 20 20 20 20 20 20
+20 20 20 20 20 20 20 20
+20 20 20 20 20 54
+</pre> 
+</tr>
+
+
+<td>flac 
+<td><a href="/wiki/Free_Lossless_Audio_Codec" title="Free Lossless Audio Codec" class="mw-redirect">Free Lossless Audio Codec</a><sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup> 
+<td>0 
+<td>
+<pre>
+fLaC
+</pre> 
+<td>
+<pre>
+66 4C 61 43
+</pre> 
+</tr>
+
+
+<td>mid<br />
+midi 
+<td><a href="/wiki/MIDI#Standard_MIDI_files" title="MIDI">MIDI sound file</a><sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> 
+<td>0 
+<td>
+<pre>
+MThd
+</pre> 
+<td>
+<pre>
+4D 54 68 64
+</pre> 
+</tr>
+
+
+<td>doc<br />
+xls<br />
+ppt<br />
+msg 
+<td><a href="/wiki/Microsoft_Office" title="Microsoft Office">Microsoft Office</a> documents<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup> 
+<td> 
+<td> 
+<td>
+<pre>
+D0 CF 11 E0 A1 B1 1A E1
+</pre> 
+</tr>
+
+
+<td>dex 
+<td><a href="/wiki/Dalvik_(software)" title="Dalvik (software)">Dalvik</a> Executable 
+<td>0 
+<td>
+<pre>
+dex.035.
+</pre> 
+<td>
+<pre>
+64 65 78 0A 30 33 35 00
+</pre> 
+</tr>
+
+
+<td>vmdk 
+<td>VMDK files <sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup><sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup> 
+<td>0 
+<td>
+<pre>
+KDM
+</pre> 
+<td>
+<pre>
+4B 44 4D
+</pre> 
+</tr>
+
+
+<td>crx 
+<td><a href="/wiki/Google_Chrome" title="Google Chrome">Google Chrome</a> extension<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup> or packaged app<sup id="cite_ref-19" class="reference"><a href="#cite_note-19">[19]</a></sup> 
+<td>0 
+<td>
+<pre>
+Cr24
+</pre> 
+<td>
+<pre>
+43 72 32 34
+</pre> 
+</tr>
+
+
+<td>fh8 
+<td><a href="/wiki/Adobe_FreeHand" title="Adobe FreeHand">FreeHand</a> 8 document<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup><sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> 
+<td>0 
+<td>
+<pre>
+AGD3
+</pre> 
+<td>
+<pre>
+41 47 44 33
+</pre> 
+</tr>
+
+
+<td>cwk 
+<td><a href="/wiki/AppleWorks" title="AppleWorks">AppleWorks</a> 5 document 
+<td>0 
+<td>
+<pre>
+....BOBO
+........
+....
+</pre> 
+<td>
+<pre>
+05 07 00 00 42 4F 42 4F
+05 07 00 00 00 00 00 00
+00 00 00 00 00 01
+</pre> 
+</tr>
+
+
+<td>cwk 
+<td><a href="/wiki/AppleWorks" title="AppleWorks">AppleWorks</a> 6 document 
+<td>0 
+<td>
+<pre>
+....BOBO
+........
+....
+</pre> 
+<td>
+<pre>
+06 07 E1 00 42 4F 42 4F
+06 07 E1 00 00 00 00 00
+00 00 00 00 00 01
+</pre> 
+</tr>
+
+
+<td>toast 
+<td><a href="/wiki/Roxio" title="Roxio">Roxio</a> <a href="/wiki/Roxio_Toast" title="Roxio Toast">Toast</a> disc image file, also some .dmg-files begin with same bytes 
+<td>0 
+<td>
+<pre>
+ER....
+</pre>
+<pre>
+ãER....
+</pre> 
+<td>
+<pre>
+45 52 02 00 00 00
+</pre>
+<pre>
+8B 45 52 02 00 00 00
+</pre> 
+</tr>
+
+
+<td>dmg 
+<td><a href="/wiki/Apple_Disk_Image" title="Apple Disk Image">Apple Disk Image</a> file 
+<td>0 
+<td>
+<pre>
+x.s.bb`
+</pre> 
+<td>
+<pre>
+78 01 73 0D 62 62 60
+</pre> 
+</tr>
+
+
+<td>xar 
+<td><a href="/wiki/Xar_(archiver)" title="Xar (archiver)">eXtensible ARchive</a> format<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup> 
+<td>0 
+<td>
+<pre>
+xar!
+</pre> 
+<td>
+<pre>
+78 61 72 21
+</pre> 
+</tr>
+
+
+<td>dat 
+<td>Windows Files And Settings Transfer Repository<sup id="cite_ref-24" class="reference"><a href="#cite_note-24">[24]</a></sup>
+<p>See also USMT 3.0 (Win XP)<sup id="cite_ref-25" class="reference"><a href="#cite_note-25">[25]</a></sup> and USMT 4.0 (Win 7)<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup> User Guides</p>
+ 
+<td>0 
+<td>
+<pre>
+PMOCCMOC
+</pre> 
+<td>
+<pre>
+50 4D 4F 43 43 4D 4F 43
+</pre> 
+</tr>
+
+
+<td>nes 
+<td>Nintendo Entertainment System ROM file <sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup> 
+<td>0 
+<td>
+<pre>
+NES
+</pre> 
+<td>
+<pre>
+4E 45 53 1A
+</pre> 
+</tr>
+
+
+<td>tar 
+<td><a href="/wiki/Tar_(computing)" title="Tar (computing)">tar archive</a><sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup> 
+<td>0x101 
+<td>
+<pre>
+ustar.00
+</pre>
+<pre>
+ustar  .
+</pre> 
+<td>
+<pre>
+75 73 74 61 72 00 30 30
+</pre>
+<pre>
+75 73 74 61 72 20 20 00
+</pre> 
+</tr>
+
+
+<td>tox 
+<td>Open source portable voxel file <sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup> 
+<td>0 
+<td>
+<pre>
+TOX
+</pre> 
+<td>
+<pre>
+74 6F 78 33
+</pre> 
+</tr>
+
+
+<td>MLV 
+<td><a href="/wiki/Magic_Lantern_(firmware)" title="Magic Lantern (firmware)">Magic Lantern</a> Video file<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup> 
+<td>0 
+<td>
+<pre>
+MLVI
+</pre> 
+<td>
+<pre>
+4D 4C 56 49
+</pre> 
+</tr>
+
+
+<td> 
+<td>Windows Update <a rel="nofollow" class="external text" href="http://www.microsoft.com/en-us/download/details.aspx?id=1562">Binary Delta Compression</a><sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup> 
+<td>0 
+<td>
+<pre>
+DCM PA30
+</pre> 
+<td>
+<pre>
+44 43 4D 01 50 41 33 30
+</pre> 
+</tr>
+
+
+<td>7z 
+<td>7-Zip File Format 
+<td>0 
+<td>
+<pre>
+7z¼¯'
+</pre> 
+<td>
+<pre>
+37 7A BC AF 27 1C
+</pre> 
+</tr>
+
+
+<td>gz<br />
+tar.gz 
+<td><a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc1952">GZIP</a> 
+<td>0 
+<td>
+<pre>
+..
+</pre> 
+<td>
+<pre>
+1F 8B
+</pre> 
+</tr>
+
+
+<td>lz4 
+<td><a href="/wiki/LZ4_(compression_algorithm)" title="LZ4 (compression algorithm)">LZ4 Streaming Format</a><sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup><br />
+<p>Remark: LZ4 compressed data (file) format does not offer any magic bytes.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup></p>
+ 
+<td>0 
+<td>
+<pre>
+."M.
+</pre> 
+<td>
+<pre>
+04 22 4D 18
+</pre> 
+</tr>
+
+
+<td>cab 
+<td>Microsoft Cabinet file 
+<td>0 
+<td>
+<pre>
+MSCF
+</pre> 
+<td>
+<pre>
+4D 53 43 46
+</pre> 
+</tr>
+
+
+<td>flif 
+<td><a href="/wiki/Free_Lossless_Image_Format" title="Free Lossless Image Format">Free Lossless Image Format</a> 
+<td>0 
+<td>
+<pre>
+FLIF
+</pre> 
+<td>
+<pre>
+46 4C 49 46
+</pre> 
+</tr>
+
+
+<td>mkv<br />
+mka<br />
+mks<br />
+mk3d<br />
+webm 
+<td><a href="/wiki/Matroska" title="Matroska">Matroska</a> media container, including <a href="/wiki/WebM" title="WebM">WebM</a> 
+<td>0 
+<td>
+<pre>
+.Eß£
+</pre> 
+<td>
+<pre>
+1A 45 DF A3
+</pre> 
+</tr>
+
+
+<td>djvu<br />
+djv 
+<td><a href="/wiki/DjVu" title="DjVu">DjVu</a> document<br />
+The following byte is either <code>55</code> (<code>U</code>) for single-page or <code>4D</code> (<code>M</code>) for multi-page documents. 
+<td>0 
+<td>
+<pre>
+AT&amp;TFORM....DJV
+</pre> 
+<td>
+<pre>
+41 54 26 54 46 4F 52 4D nn nn nn nn 44 4A 56
+</pre> 
+</tr>
+
+
+<th>File extension</th>
+<th>Description</th>
+<th>Offset</th>
+<th>ISO 8859-1</th>
+<th>Hex signature</th>
+</tr>
+
